@@ -1,13 +1,13 @@
 === WP Featured Menus ===
 Contributors: topher1kenobe
-Tags: posts, pages
+Tags: posts, pages, menus, featured
 Requires at least: 3.0
 Tested up to: 3.9.1
 Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Provides a metabox on posts and pages listing existing WordPress Menus.  The end user is allowed to choose one and make it associated with the post or page via meta data.
+Provides a metabox on posts and pages listing existing WordPress Menus.
 
 == Description ==
 
@@ -32,7 +32,7 @@ Page or Post meta has a key called `_wp_featured_menu`.  A very simple way to re
 
 A better way might be to test for the value first:
 
-<?php
+`<?php
 	$meta = get_post_custom();
 	if ( is_numeric( $meta['_wp_featured_menu'][0] ) ) {
 		wp_nav_menu( array( 'menu' => $meta['_wp_featured_menu'][0] ) );
