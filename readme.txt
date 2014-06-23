@@ -3,7 +3,7 @@ Contributors: topher1kenobe
 Tags: posts, pages, menus, featured
 Requires at least: 3.0
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,9 +47,15 @@ I haven't been asked any yet.  :)
 
 == Screenshots ==
 
-1. The checkbox in the Publish box on the Post editing page
+1. The Featured Menus meta box when you *do not* have any Menus created in WordPress.
+
+2. The Featured Menus meta box when you *do* have Menus created in WordPress.
 
 == Changelog ==
+
+= 1.1 =
+* change meta key name to not start with _wp
+* change main class name to not start with WP
 
 = 1.0 =
 * Initial release.

@@ -7,7 +7,7 @@ Provides a metabox on posts and pages listing existing WordPress Menus.
 **Tags:** [posts](http://wordpress.org/plugins/tags/posts), [pages](http://wordpress.org/plugins/tags/pages), [menus](http://wordpress.org/plugins/tags/menus), [featured](http://wordpress.org/plugins/tags/featured)  
 **Requires at least:** 3.0  
 **Tested up to:** 3.9.1  
-**Stable tag:** 1.0  
+**Stable tag:** 1.1  
 **License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)  
 
 ## Description ##
@@ -50,6 +50,10 @@ I haven't been asked any yet.  :)
 
 
 ## Changelog ##
+
+### 1.1 ###
+* change meta key name to not start with _wp
+* change main class name to not start with WP
 
 ### 1.0 ###
 * Initial release.
